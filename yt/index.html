@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Vaha</title><style>:root{--bg:#faf6ee;--ink:#2c2217;--mute:#6b5d4b;--line:#e6dccb;--link:#2f6a8a}
+@media (prefers-color-scheme:dark){:root{--bg:#141a24;--ink:#efe8da;--mute:#a99f8f;--line:#2a3343;--link:#8cc4e6}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans Arabic',sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.7em;line-height:1.25;margin:.2em 0 .6em}h2{font-size:1.2em;margin-top:2em}
+a{color:var(--link);overflow-wrap:anywhere}nav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.9em;color:var(--mute);border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:24px}
+ul{padding-inline-start:1.3em}li{margin:.3em 0}.card{display:block;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;text-decoration:none;color:var(--ink)}
+.card small{display:block;color:var(--mute)}footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--mute);font-size:.85em}footer .legal{margin:0 0 6px;font-size:1.05em}</style></head><body><main><div style="text-align:center;padding-top:12vh"><img src="../vaha-ikon.png" alt="" width="96" height="96" style="border-radius:22px">
+<h1 style="margin:.4em 0 .2em">Vaha</h1><p style="color:var(--mute);margin:0 0 1.6em">Zikir uygulaması · Dhikr app</p>
+<a class="card" id="go" href="https://play.google.com/store/apps/details?id=com.vahazikir.app&referrer=utm_source%3Dyoutube%26utm_medium%3Dbio" style="display:inline-block;padding:14px 26px">Google Play</a></div>
+<script>var ua=navigator.userAgent,F='yt',as='https://apps.apple.com/us/app/vaha-tasbih-dhikr-counter/id6834900922',web='https://play.google.com/store/apps/details?id=com.vahazikir.app&referrer=utm_source%3Dyoutube%26utm_medium%3Dbio',b=document.getElementById('go');
+var ios=F==='ios'||(F!=='play'&&(/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1))),droid=/Android/i.test(ua);
+if(ios&&as){b.textContent='App Store';b.href=as;location.replace(as);}
+else if(droid){var it='intent://details?id=com.vahazikir.app&referrer='+encodeURIComponent('utm_source=youtube&utm_medium=bio')+'#Intent;scheme=market;package=com.android.vending;S.browser_fallback_url='+encodeURIComponent(web)+';end';
+b.href=it;setTimeout(function(){location.href=it},50);}
+else{b.href=web;location.replace(web);}</script></main></body></html>
